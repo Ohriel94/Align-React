@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
   color: white;
+  font-family: Arial;
+  margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+header {
+  background-color: #b3112c;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background-color: #FFFFFF;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+h2 {
+  color: #b3112c;
+  font-weight: bold;
+}
+
+h3 {
+  color: #b3112c;
+  font-weight: bold;
+}
+
+h5 {
+  color: #111111;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  position: relative;
+  display: block
+}
+
+input {
+  display: block;
+}
+
+label {
+  font-weight: bold;
+  color: black;
+}
+
+span {
+  font-weight: bold;
+  color: #0D237D;
+}
+
+a {
+  color: #0D237D;
+  font-weight: bolder;
+}
+a:hover {
+  color: #b3112c;
+  font-weight: bold;
+}
+div.d-md-block {
+  background-color: rgba(0, 0, 0, .5);
+  margin: 30px auto;
+}
+.logo {
+  width: 400px;
+}
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.main {
+  min-height: 2304px;
+  min-width: fit-content;
+  margin: 20px;
+}
+.side {
+  max-width: 500px;
+  min-width: fit-content;
+  text-align: center;
+  margin: 20px;
+}
+.canvas {
+  padding: 0px, 0px, 0px, 20px;
+}
+.jumbotron-danger {
+  background-color: #b91b1b;
+}
+.boutons {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 1px;
+  cursor: pointer;
+  width: 150px;
+}
+.boutons:focus {
+  color: black;
+}
+.boutons:hover {
+  color: black;
+}
+#btn-rouge {
+  background-color: #b91b1b;
+}
+#btn-bleu {
+  background-color: #1f7ac4;
+}
+#btn-vert {
+  background-color: #259c29;
+}
+#btn-orange {
+  background-color: #ff8800;
+}
+#btn-violet {
+  background-color: #8540ff;
+}
+#btn-blanc {
+  background-color: #888888;
+}
+#iframe {
+  position: relative;
+  z-index: 98;
+  border: #b3112c 5px solid;
+  width:"1920";
+  height:"1080";
+}
+
+#canvas {
+  position: absolute;
+  z-index: 99;
 }
